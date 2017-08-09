@@ -511,7 +511,7 @@ public class PlatformerMap extends GameMap {
 		if (backgroundImage == null) {
 			try {
 				System.out.println("Background Loaded");
-				URL url = getClass().getResource("res/images/marioB.png");
+				URL url = getClass().getResource("res/images/marioB.jpg");
 				backgroundImage = new ImageIcon(url).getImage();
 			} catch (Exception e) {
 				System.out.println("Problem opening background image");
